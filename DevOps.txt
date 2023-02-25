@@ -1,0 +1,234 @@
+DevOps:
+
+
+1. Shell scripting- 7 to 8 session
+2. Terraform- HCL- IAAC-8 TO 9 SESSION
+3. PACKER- IMAGES- 2SESSION
+4. GIT&GITHUB- REPO-6 SESSIONS
+5. DOCKER- 10 SESSION
+6. ANSIBLE, CHEFF, PUPPET AND K8S - 6 TO 6 SESSIONS
+7.JENKINS- CI/CD-8 TO 9 SESSION
+
+
+50 SESSION
+
+
+10 PROJECTS- 100 PESONG
+
+1 PROJECT -10 MENBERS-  10 DIFF MODULES-   1 FRONT END  2 BACKEND  3. DB  4. CLOUD  5. CYBERSECURITY 6. TESTING 7. PRODUCTION
+
+
+35.174.153.48
+
+
+35.168.3.252
+
+
+
+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
+
+
+AKIA2JBBPOGZSWC37CPS
+
+S1Kcs7eK/CIRCC6Tlttk9jeoGHnxD+vPVk+fCMKq
+
+
+
+
+curl http://169.254.169.254/latest/meta-data
+
+
+instance-type
+
+instance-id
+
+hostname
+
+
+
+weekly 5 days
+
+
+
+
+
+
+
+local-ipv4
+
+
+
+
+
+
+
+ami id
+
+hostname
+
+public key
+
+profile
+
+ilc
+
+
+
+
+
+
+
+
+Debugging using set -x -n -e
+
+set -n
+
+
+
+x=veera
+ 
+x=$(url or cmd)
+
+
+x is variable
+
+$()
+
+
+
+set -x
+
+
+
+
+useradd -m veera
+passwd veera
+
+
+=><-
+
+
+shell comparision
+
+num1 -eq num2                  check if 1st  number is equal to 2nd number
+1>=1
+num1 -ge num2                  checks if 1st  number  is greater than or equal to 2nd number
+num1 -gt num2                  checks if 1st  number is greater than 2nd number
+num1 -le num2                   checks if 1st number is less than or equal to 2nd number
+num1 -lt num2                   checks if 1st  number  is less than 2nd number
+num1 -ne num2                  checks if 1st  number  is not equal to 2nd number
+
+
+
+NUM1=10
+NUM2=RAMDEEP
+
+10=RAMDEEP
+
+
+
+
+NUM1=1
+NUM2=2
+
+
+
+
+
+
+
+
+USER=$(cat /etc/passwd | cut -d ":" -f 1 | grep -w $USER1)   -W
+
+
+
+
+SPEC='!@#$%^&*()_+'
+SPECCHAR=$(echo $SPEC | fold -w1 | shuf | head -1)
+PASSWORD=India${QWERTYUIOASDFGHJKZXCVBNM}${SPECCHAR}$RANDOM
+
+
+ALPHA='qwertyuiopasdfghjkzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
+  320  echo $ALPHA
+  321  echo $ALPHA | fold -w4
+  322  echo $ALPHA | fold -w4 | shuf
+  323  echo $ALPHA | fold -w4 | shuf | head -1
+
+
+
+#!/bin/bash
+ALPHA='qwertyuiopasdfghjkzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'
+ALPHACHAR=$(echo $ALPHA | fold -w3 | shuf | head -1)
+SPEC='!@#$%^&*()_+'
+SPECCHAR=$(echo $SPEC | fold -w1 | shuf | head -1)
+PASSWORD=${ALPHACHAR}${SPECCHAR}${RANDOM}
+echo $PASSWORD
+
+
+
+
+
+
+GHJ_6964
+
+
+qwe!15757
+
+
+Parameter passing:
+
+$#= number of arguments. ans is 3.  
+
+$@= what parameter were passed. ans is 1 2 3
+$?= was last command successful. ans is 0 which means 'yes'
+
+
+functions
+
+
+
+""   ''
+
+
+interpolation
+
+x=10
+echo "the value of x is $x"
+
+
+
+diff b/w {}   ()
+
+
+
+variable replacement $
+
+CONFIGURATION
+
+
+usercreate () {
+for USER in $@
+do
+useradd -m $USER
+done
+}
+
+
+regular break
+
+#ls -al
+#folders= ls -al
+
+folders=$(ls -al)
+echo $folders
+
+
+user=$(cat /etc/passwd | grep -i ec2-user | cut -d ":" -f 1)
+echo $user
+
+
+
+
+
+
+
